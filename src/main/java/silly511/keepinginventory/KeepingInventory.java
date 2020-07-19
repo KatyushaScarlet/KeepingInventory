@@ -25,7 +25,7 @@ public class KeepingInventory {
 			gr.setOrCreateGameRule("doFireTick", Boolean.toString(ConfigHandler.fireTick));
 		if (gr.getBoolean("keepInventory") != ConfigHandler.keepInventory)
 			gr.setOrCreateGameRule("keepInventory", Boolean.toString(ConfigHandler.keepInventory));
-		if (gr.getBoolean("keepInventory") != ConfigHandler.mobGriefing)
+		if (gr.getBoolean("mobGriefing") != ConfigHandler.mobGriefing)
 			gr.setOrCreateGameRule("mobGriefing", Boolean.toString(ConfigHandler.mobGriefing));
 	}
 	
